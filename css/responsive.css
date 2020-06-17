@@ -1,0 +1,135 @@
+@media screen and (max-width: 768px){
+  .header-content h2{
+    font-size: 20px;
+  }
+
+  .intro-content{
+    display: block;
+    height: 65vh;
+  }
+
+  .intro-content div{
+    width: 100%;
+  }
+
+  .services{
+    height: 65vh;
+    clip-path: polygon(0 0, 15% 0, 50% 5%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
+  }
+
+  .service-content{
+    display: block;
+    margin-top: -15vh;
+    padding-top: 1px;
+  }
+
+  .bucket{
+    width: 100%;
+    margin: 80px 3%;
+  }
+
+  input{
+
+    margin: 2px;
+    border-radius: 200px;
+    text-align: center;
+  }
+
+  textarea{
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 50px;
+    height: 10vh;
+    
+  }
+  
+}
+
+@media screen and (max-width: 609px){
+  .intro-content{
+
+    height: 100vh;
+  }
+
+  .services{
+
+    height: 120vh;
+  }
+
+
+
+
+
+
+}
+@media screen and (max-width: 425px){
+
+.header-content  .m-f{
+
+  font-size: 30px;
+display: block;
+  
+}
+
+.header-content  h2{
+
+  font-size:10px;
+
+  padding: 2px;
+}
+
+.header-content a{
+
+  display: block;
+  margin-top: 10px;
+}
+.intro{
+  height: 100vh;
+}
+.services{
+  height: 130vh;
+}
+
+
+
+
+}
+
+@media screen and (max-width:320px){
+
+  *{
+
+    margin: auto;
+    padding: 0%;
+  }
+
+  .header-content  .m-f{
+
+    font-size: 20px;
+ 
+    
+  }
+
+  .header-content  h2{
+
+    font-size:8px;
+  
+    padding: 2px;
+  }
+  .intro{
+    height: 110vh;
+  }
+  .intro .m-f{
+
+    font-size: 20px;
+    text-align: center;
+
+    
+  }
+  .services{
+    height: 150vh;
+  }
+
+
+
+}
